@@ -8,13 +8,6 @@
       "id": 1
     },
     {
-      "name": "Rent",
-      "amount": "1100.00",
-      "category": "bills",
-      "date": "2020-09-23T23:32:51.941Z",
-      "id": 3
-    },
-    {
       "name": "Bus Pass",
       "amount": "70.25",
       "category": "transportation",
@@ -29,11 +22,18 @@
       "id": 5
     },
     {
+      "name": "New Laptop",
+      "amount": "550.5",
+      "category": "miscellaneous",
+      "date": "2020-09-24T14:54:09.172Z",
+      "id": 7
+    },
+    {
       "name": "Dinner",
-      "amount": "12",
+      "amount": "55.5",
       "category": "food",
-      "date": "2020-09-24T13:09:32.860Z",
-      "id": 6
+      "date": "2020-09-24T14:59:54.905Z",
+      "id": 8
     }
   ]
 }

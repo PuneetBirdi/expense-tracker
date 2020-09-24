@@ -77,7 +77,8 @@ const AddExpenseModal = ({ addExpense }) => {
               <option value='food'>Food</option>
               <option value='transportation'>Transportation</option>
               <option value='bills'>Bills</option>
-              <option value='Entertainment'>Entertainment</option>
+              <option value='entertainment'>Entertainment</option>
+              <option value='miscellaneous'>Miscellaneous</option>
             </select>
           </div>
         </div>

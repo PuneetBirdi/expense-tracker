@@ -33,13 +33,20 @@ const Expenses = ({ expenses: { expenses }, loading, getExpenses }) => {
             </h5>
           </div>
         </li>
-        {!loading && expenses.length === 0 ? (
-          <p className='center'>No expenses to show.</p>
-        ) : (
-          expenses.map((expense) => (
-            <ExpenseItem expense={expense} key={expense.id} />
-          ))
-        )}
+        <div
+          style={{
+            height: `60vh`,
+            overflow: 'scroll',
+          }}
+        >
+          {!loading && expenses.length === 0 ? (
+            <p className='center'>No expenses to show.</p>
+          ) : (
+            expenses.map((expense) => (
+              <ExpenseItem expense={expense} key={expense.id} />
+            ))
+          )}
+        </div>
       </ul>
     );
   }
