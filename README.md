@@ -1,8 +1,8 @@
 ### Running the Application
 
 1. Clone the repository.
-2. Run "npm install" to download dependencies.
-3. Run "npm run app" to start the application.
+2. Run `npm install` to download dependencies.
+3. Run `npm run app` to start the application.
 
 ### Application Assumptions
 
