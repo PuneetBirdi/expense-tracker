@@ -1,44 +1,39 @@
 {
-  "logs": [
+  "expenses": [
     {
-      "id": 4,
-      "message": "Workstation 026 is up and running",
-      "attention": false,
-      "tech": "Sara Wilson",
-      "date": "2019-05-31T19:57:35.544Z"
+      "name": "Movie Tickets",
+      "amount": "22.25",
+      "category": "Entertainment",
+      "date": "2020-09-23T17:50:33.909Z",
+      "id": 1
     },
     {
-      "id": 5,
-      "message": "Fixed",
-      "attention": false,
-      "tech": "Test2 Doe",
-      "date": "2020-06-07T17:08:18.789Z"
+      "name": "Rent",
+      "amount": "1100.00",
+      "category": "bills",
+      "date": "2020-09-23T23:32:51.941Z",
+      "id": 3
     },
     {
-      "id": 6,
-      "message": "Testin ",
-      "attention": false,
-      "tech": "John Doe",
-      "date": "2020-06-07T17:12:24.849Z"
+      "name": "Bus Pass",
+      "amount": "70.25",
+      "category": "transportation",
+      "date": "2020-09-23T23:34:21.550Z",
+      "id": 4
     },
     {
-      "message": "Broken network card on workstation 6",
-      "attention": true,
-      "tech": "John Doe",
-      "date": "2020-06-07T17:13:24.897Z",
-      "id": 7
-    }
-  ],
-  "techs": [
-    {
-      "id": 1,
-      "firstName": "John",
-      "lastName": "Doe"
+      "name": "Groceries",
+      "amount": "75.90",
+      "category": "food",
+      "date": "2020-09-23T23:34:47.158Z",
+      "id": 5
     },
     {
-      "id": 2,
-      "firstName": "Sam",
-      "lastName": "Smith"
+      "name": "Dinner",
+      "amount": "12",
+      "category": "food",
+      "date": "2020-09-24T13:09:32.860Z",
+      "id": 6
     }
   ]
 }

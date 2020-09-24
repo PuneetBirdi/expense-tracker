@@ -1,33 +1,39 @@
-import React, {useRef} from 'react';
+import React, { useRef } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import { searchLogs } from '../../actions/logActions';
+import { searchExpenses } from '../../actions/expenseActions';
 
-export const SearchBar = ({searchLogs}) => {
-   const text = useRef('');
+export const SearchBar = ({ searchExpenses }) => {
+  const text = useRef('');
 
-   const onChange = (e) =>{
-      searchLogs(text.current.value);
-   }
+  const onChange = (e) => {
+    searchExpenses(text.current.value);
+  };
 
-   return (
-      <nav style={{ marginBottom: '30px '}} className='blue'>
-         <div className="nav-wrapper">
-         <form>
-            <div className="input-field">
-               <input id="search" type="search" placeholder='Search' ref={text}
-                  onChange={onChange}
-               />
-               <label className="label-icon" htmlFor="search"><i className="material-icons">search</i></label>
-               <i className="material-icons">close</i>
-            </div>
-         </form>
-         </div>
+  return (
+    <nav style={{ marginBottom: '30px ' }} className='blue'>
+      <div className='nav-wrapper'>
+        <form>
+          <div className='input-field'>
+            <input
+              id='search'
+              type='search'
+              placeholder='Filter'
+              ref={text}
+              onChange={onChange}
+            />
+            <label className='label-icon' htmlFor='search'>
+              <i className='material-icons'>search</i>
+            </label>
+            <i className='material-icons'>close</i>
+          </div>
+        </form>
+      </div>
     </nav>
-   )
-}
+  );
+};
 
 SearchBar.propTypes = {
-   searchLogs: PropTypes.func.isRequired,
-}
-export default connect(null, { searchLogs })(SearchBar);
+  searchExpenses: PropTypes.func.isRequired,
+};
+export default connect(null, { searchExpenses })(SearchBar);

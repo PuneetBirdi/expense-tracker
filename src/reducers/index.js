@@ -1,8 +1,6 @@
 import { combineReducers } from 'redux';
-import logReducer from './logReducer';
-import techReducer from './techReducer'
+import expenseReducer from './expenseReducer';
 
 export default combineReducers({
-   log: logReducer,
-   tech: techReducer
+  expenses: expenseReducer,
 });
